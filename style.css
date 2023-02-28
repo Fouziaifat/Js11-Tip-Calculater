@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    background-image: url(Prequel-lead.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculate {
+    width: 25vh;
+    height: 65vh;
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+
+.result {
+    width: 25vh;
+    height: 65vh;
+    display: flex;
+    float: right;
+    flex-direction: column;
+}
+
+.main {
+    height: 100%;
+    background-color: #3d155f96;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.answer {
+    height: 100%;
+    background-color: #df678b8a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cal {
+    padding: 30px;
+}
+
+.main h1 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 5PX;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.main label {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 5PX;
+}
+
+.main input {
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.main button {
+    width: 18vw;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #DF678C;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main button:hover {
+    background-color: #DF678C;
+    border: 1px solid white;
+    color: #fff;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+
+.answer h1 {
+    font-size: 1.5rem;
+    color: #3D155F;
+    font-family: 'Playfair Display', serif;
+}
+.result1 {
+    margin-bottom: 5px; 
+    display: flex; 
+    flex-direction: column;
+    color: black;     
+}
+.result1 .doller {
+    border-bottom: 1px solid #300c50;
+}
+.text {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 780px) {
+    .result {
+        width: 50vh;
+        height: 65vh;
+    }  
+    .calculate {
+        width: 55vh;
+        height: 65vh; 
+    }
+    .answer h1{
+        font-size: 2rem;
+    }
+  }

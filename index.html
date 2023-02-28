@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip-Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculate">
+            <div class="main">
+                <div class="cal">
+                    <h1>Tip Calculater</h1>
+                    <hr>
+                </div>
+                    <label>Total Bill</label>
+                    <input id="totBill" type="number" placeholder="Enter Your total bill:" required>
+                    <label>Tip percentage</label>
+                    <input type="number" id="tipPerc" placeholder="Tip percentage" required>
+                    <label>Number of People</label>
+                    <input type="number" id="noPeops" placeholder="Enter number of people:" required>
+                        <button id="btn" type="submit">Calculate</button>
+            </div>
+        </div>
+            <div class="result">
+                <div class="answer">
+                    <h1>Total</h1>
+                    <hr>
+                    <div class="result1">
+                        <label class="text">Bill Amount</label>
+                        <label class="doller d1">$0.00</label>
+                    </div>
+                    <div class="result1">
+                        <label class="text">Tip Amount</label>
+                        <label class="doller d2">$0.00</label>
+                    </div>
+                    <div class="result1">
+                        <label class="text">Total Bill</label>
+                        <label class="doller d3">$0.00</label>
+                    </div>
+                    <div class="result1">
+                        <label class="text">Each Person Pays</label>
+                        <label class="doller d4">$0.00</label>
+                    </div>
+                </div>
+                
+            </div>
+    
+    </div>
+    
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
